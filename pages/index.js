@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <Navbar/>
-      <main className=''>
+      <main className='min-h-screen'>
           <TextArea/>
           <Notes/>
       </main>
