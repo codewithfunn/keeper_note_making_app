@@ -1,0 +1,33 @@
+.__about{
+    width: 70%;
+    margin: 0.7em auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    min-height: 100vh;
+
+    &__header{
+        h2{
+            font-size: 1.3em;
+            font-weight: 700;
+            font-family: cursive;
+            padding: 1em 0;
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+
+        p{
+            word-spacing: 0.2em;
+            font-size: 1em;
+            line-height: 1.5em;
+            a{
+                color: #3a8cff;
+                padding: 0 0.4em ;
+            }
+        }
+
+    }
+}
