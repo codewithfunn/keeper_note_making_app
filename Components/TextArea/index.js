@@ -2,7 +2,7 @@ import React , {useState} from 'react'
 import AddIcon from '@material-ui/icons/Add.js';
 import Fab from '@material-ui/core/Fab';
 import Zoom from '@material-ui/core/Zoom';
-const index = (props) => {
+const Index = (props) => {
   const [isExpanded, setExpanded] = useState(false);
 
     const [note, setNote] = useState({
@@ -50,4 +50,4 @@ const index = (props) => {
   )
 }
 
-export default index
+export default Index

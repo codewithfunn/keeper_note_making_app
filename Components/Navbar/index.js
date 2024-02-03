@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-const index = () => {
+const Index = () => {
   const [currentTime, setCurrentTime] = useState(
     new Date().toLocaleTimeString()
   );
@@ -46,4 +46,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
