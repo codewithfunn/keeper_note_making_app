@@ -21,16 +21,13 @@ export default function Home() {
   }
   return (
     <div className=''>
-    
-
-    
       <main className='min-h-screen'>
           <TextArea  onAdd={addNote}/>
           
           {notes.map((note, index) => {
             return <Notes 
-                key={index}
-                id={index}
+                      key={index}
+                      id={index}
                 title={note.title}
                 content={note.content}
                 onDelete={deleteNote}

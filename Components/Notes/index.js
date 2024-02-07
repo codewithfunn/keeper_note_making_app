@@ -2,15 +2,14 @@ import React from 'react'
 import DeleteIcon from '@material-ui/icons/Delete.js';
 
 
-const index = ({props}) => {
- 
+const index = (props) => {
   function handleClick() {
     props.onDelete(props.id);
 }
 
 return <div className="note">
-    <h1 name="title">{props.title}</h1>
-    <p name="content">{props.content}</p>
+    <h1 name="title">{props?.title}</h1>
+    <p name="content">{props?.content}</p>
     <button onClick={handleClick}>
         <DeleteIcon />
     </button>
